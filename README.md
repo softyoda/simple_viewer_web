@@ -3,3 +3,8 @@
 ___
 
 [V2](https://softyoda.github.io/simple_viewer_web/V2/home.html) (lighter models, yet slower because of rasterizer implementation)
+
+___
+
+[V2](https://softyoda.github.io/simple_viewer_web/V3/home.html) (almost same as v1, removed anti aliazing, changed some models)
+
