@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style_home.css">
+    <link rel="icon" type="image/x-icon" href="content/images/favicon.ico">
+
+</head>
+
+
+<body>
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="./content/images/amcgi.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="./home.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="./about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="./about.html" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+<main class="page-content">
+<section id="gallery-43">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Visionneuse d'art 3D en ligne</h2>
+            <p class="cs-text">
+                Nous offrons une plateforme en ligne sophistiquée pour la visualisation de scans 3D haute résolution d'objets d'art et d'artefacts. Nos utilisateurs peuvent accéder à des rendus numériques détaillés d'objets provenant de maisons de vente aux enchères et de collections privées.            </p>
+        </div>
+        <div class="cs-image-group">
+            <!-- Image 1 -->
+            <a class="cs-item" href="./content/1.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/1.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/1.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/1.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Muse</h3>
+                    <p class="cs-hover-box-text">
+                        Tirage d'artiste signé "H. Yencesse", bronze fondu par "Alexis Rudier Fondeur Paris" 
+                    </p>
+                </div>
+            </a>
+            <!-- Image 2 -->
+            <a class="cs-item" href="./content/2.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/2.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/2.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/2.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Buste féminin dans une main en verre oxydé</h3>
+                    <p class="cs-hover-box-text">
+                        Buste féminin dans une main en verre oxydé. Lampe sculpture de Murano circa 1980. Cadre en laiton doré.
+                    </p>
+                </div>
+            </a>
+            <!-- Image 3 -->
+            <a class="cs-item" href="./content/3.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/3.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/3.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/3.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Aristide PASTOGLOU </h3>
+                    <p class="cs-hover-box-text">
+                        Aristide PASTOGLOU (né en 1941- ). Figure féminine en bronze patiné, tirage orignal numéroté et signé.
+                    </p>
+                </div>
+            </a>
+            <!-- Image 4 -->
+            <a class="cs-item" href="./content/4.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/4.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/4.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/4.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Œuf  de fabergé</h3>
+                    <p class="cs-hover-box-text">
+                        Auteur inconnu, l'œuvre est présentée ici à titre d'exemple.
+                    </p>
+                </div>
+            </a>
+            <!-- Image 5 -->
+            <a class="cs-item" href="./content/5.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/5.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/5.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/5.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Théière Impériale</h3>
+                    <p class="cs-hover-box-text">
+                        Auteur inconnu, l'œuvre est présentée ici à titre d'exemple.
+                    </p>
+                </div>
+            </a>
+            <!-- Image 6 -->
+            <a class="cs-item" href="./content/6.html">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="./content/images/compressed/6.jpg">
+                    <source media="(min-width: 601px)" srcset="./content/images/6.jpg">
+                    <img loading="lazy" decoding="async" src="./content/images/6.jpg" alt="fancy house" width="346" height="346">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <picture class="cs-icon">
+                        <img loading="lazy" decoding="async" <img src="./content/svg/orange-arrow-right.svg" alt="fancy house" width="20" height="20" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Figure en Repos</h3>
+                    <p class="cs-hover-box-text">
+                        Auteur inconnu, l'œuvre est présentée ici à titre d'exemple.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+</main>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+
+                                
