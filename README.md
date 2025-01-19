@@ -6,5 +6,5 @@ ___
 
 ___
 
-[V2](https://softyoda.github.io/simple_viewer_web/V3/home.html) (almost same as v1, removed anti aliazing, changed some models)
+[V3](https://softyoda.github.io/simple_viewer_web/V3/home.html) (almost same as v1, removed anti aliazing, changed some models)
 
